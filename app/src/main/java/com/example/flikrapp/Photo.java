@@ -1,11 +1,13 @@
 package com.example.flikrapp;
 
+import java.io.Serializable;
+
 /**
  * Created by gauravjeetsingh on 9/3/18.
  */
 
-class Photo {
-
+class Photo implements Serializable{
+    public static final long serialVersionUID = 1L;
     private String mTitle;
 
     public Photo(String title, String author, String authorId, String link, String tag, String image) {

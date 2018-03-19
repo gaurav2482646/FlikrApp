@@ -4,6 +4,9 @@
 
     <item android:title="Settings"
         android:id="@+id/settings"/>
-    <item android:title="Item" />
-    <item android:title="Item" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/activity_search"
+        app:showAsAction="ifRoom" />
 </menu>
